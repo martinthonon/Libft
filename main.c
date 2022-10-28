@@ -9,6 +9,8 @@ int main(void)
 	printf("%s\n", ft_strjoin(NULL, NULL));
 	printf("--------------- strmapi ---------------\n");
 	printf("%s\n", ft_strmapi("Hello", NULL));
+	printf("%s\n", ft_strmapi(NULL, NULL));
 	printf("--------------- striteri ---------------\n");
 	ft_striteri("Hello", NULL);
+	ft_striteri(NULL, NULL);
 }
